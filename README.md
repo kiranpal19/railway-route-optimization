@@ -1,10 +1,14 @@
 # Railway Route Optimization System
 
-A web application that finds optimal railway routes (shortest distance, fastest time, or lowest cost) using graph algorithms (Dijkstra) over a station/connection network.
+A full-stack web app that finds optimal railway routes using Dijkstra's algorithm. Built with Python, Flask, React 19, and Vite."
 
 ## Tech Stack
 - Backend: Python, Flask, flask-cors
 - Frontend: React 19, Vite
+  
+## Topics 
+python  flask  react  dijkstra  graph-algorithms  
+full-stack  route-optimization  vite
 
 ## Features
 - Stations module: CRUD for station id and name
@@ -54,7 +58,6 @@ Then search for source=A, destination=C with different criteria.
 - DELETE /connections (body {source_id,dest_id}) → { removed }
 - POST /route (body {source,destination,criterion}) → { station_names, edges, totals, criterion }
 
-## Notes
-- Connections are directed. Add both directions if needed.
-- Data is in-memory. Restarting the backend clears data. Replace with a DB for persistence.
-- Dev proxy is configured in `frontend/vite.config.js`. For production, set a proper API base or serve both behind one domain.
+<img width="1890" height="874" alt="Screenshot 2025-11-09 073651" src="https://github.com/user-attachments/assets/5f0b094d-f158-4e3c-bda2-b771caea207d" />
+
+<img width="1650" height="885" alt="Screenshot 2025-11-09 074455" src="https://github.com/user-attachments/assets/571a785a-5b53-4894-bdc0-1b8140b2e90a" />
